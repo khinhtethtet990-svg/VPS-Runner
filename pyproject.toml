@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vps-bot-final"
+version = "1.0.0"
+description = "Native Telegram VPS/PaaS project runner"
+requires-python = ">=3.10"
+dependencies = ["python-telegram-bot[job-queue]==22.8"]
