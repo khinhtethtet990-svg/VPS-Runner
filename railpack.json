@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "packages": {
+    "python": "3.12",
+    "node": "20"
+  },
+  "deploy": {
+    "startCommand": "sh railway-start.sh",
+    "aptPackages": ["ffmpeg"]
+  }
+}
